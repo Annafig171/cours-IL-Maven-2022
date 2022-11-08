@@ -6,8 +6,9 @@ import fr.imt.coffee.machine.exception.CoffeeTypeCupDifferentOfCoffeeTypeTankExc
 import fr.imt.coffee.machine.exception.LackOfWaterInTankException;
 import fr.imt.coffee.machine.exception.MachineNotPluggedException;
 import fr.imt.coffee.storage.cupboard.coffee.type.CoffeeType;
-import fr.imt.coffee.storage.cupboard.container.*;
 import fr.imt.coffee.storage.cupboard.exception.CupNotEmptyException;
+import fr.imt.coffee.storage.cupboard.container.*;
+
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
