@@ -35,7 +35,7 @@ jobs:
     - uses: codecov/codecov-action@v3
       with:
         token: CODECOV_TOKEN=e316cde7-f00b-4d4b-aa2e-7334f2577117 # not required for public repos
-        files: D:\softwares\Java\jacoco-0.8.8\coverage # optional
+        files: /home/runner/jacoco/jacoco.xml # optional
         flags: unittests # optional
         name: codecov-umbrella # optional
         fail_ci_if_error: true # optional (default = false)
