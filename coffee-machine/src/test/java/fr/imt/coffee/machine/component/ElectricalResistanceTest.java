@@ -15,6 +15,7 @@ public class ElectricalResistanceTest {
      */
     public double computeHeatingTime(double power, double waterVolume){
         return ((waterVolume * 4180 * (90 - 20)) / power) * 1000 / 10;
+
     }
 
     /**

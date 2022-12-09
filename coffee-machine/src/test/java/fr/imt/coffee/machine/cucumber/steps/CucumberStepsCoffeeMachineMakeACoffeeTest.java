@@ -80,6 +80,11 @@ public class CucumberStepsCoffeeMachineMakeACoffeeTest {
         Assertions.assertFalse(containerWithCoffee.isEmpty());
     }
 
+    @Then("the coffee machine is plugged")
+    public void theCoffeeMachienIsPlugged(){
+        Assertions.assertTrue(coffeeMachine.isPlugged());
+    }
+
 
     @And("a coffee volume equals to {double}")
     public void aCoffeeVolumeEqualsTo(double coffeeVolume) {
